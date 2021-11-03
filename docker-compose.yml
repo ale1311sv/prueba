@@ -7,7 +7,7 @@ services:
     volumes:
       - ./vol_nginx:/usr/share/nginx/html
   redisweb:
-    image: redis
+    image: ya no es redis 
     ports:
       - "6379:6379"
-
+	
